@@ -1,0 +1,52 @@
+.news-carousel-card {
+   &__media {
+      height: 140px;
+      width: 100%;
+   };
+   &__border {
+      border: solid;
+   };
+   &__full-height-card {
+      height: 100%;
+   };
+   &__card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 13rem;
+      height: 253px;
+   };
+   &__active-card {
+       width: 13rem;
+       height: 100%;
+   };
+   &__grid {
+      display: flex;
+   };
+   &__date {
+      font-size: 0.6rem;
+      font-weight: 600;
+   }
+   &__details {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+      margin-bottom: 0;
+      margin-left: 9px;
+      margin-right: 9px;
+   };
+   &__source{
+      font-size: 0.6rem;
+      font-weight: 600;
+   }
+   &__title {
+      font-size: 0.7rem;
+      padding: 0 11px 3px;
+      font-weight: 500;
+   };
+   &__card-actions {
+      padding: 0 16px 8px 16px;
+      display: flex;
+      justify-content: space-between;
+   };
+}  

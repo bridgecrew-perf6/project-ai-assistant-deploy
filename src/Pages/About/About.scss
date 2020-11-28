@@ -1,0 +1,13 @@
+.about{     
+     height: 100vh;
+     &__card-aboutme{
+                 width: 97%;
+                 border-radius:8px;
+          &-image{
+               background-color: transparent;
+               border: 1px solid transparent;
+               width: 57%;
+               margin-top: 2.5%;
+          }
+     }
+}
